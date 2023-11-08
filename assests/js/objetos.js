@@ -1,10 +1,13 @@
 // OBJETOS
 
 const animal={
-    nombre:Felix;
-    especie:val1;
-    prop2:v2;
-    nombredemetodo(){
-        //contenido
+    nombre:'Felix',
+    especie:'gato',
+    edad:'4',
+    comer(){
+        console.log(`${animal.nombre} come`)
+        console.log(`${this.nombre} come`)
     }
 }
+
+console.log(animal.comer())
